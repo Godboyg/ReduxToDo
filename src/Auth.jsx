@@ -9,6 +9,8 @@ import Todos from "./Todos";
 
 const Auth = () => {
 
+    document.title = "TO-DO"
+
     const [ isvisible , setIsVisible ] = useState(false);
     const [ taskvisible , setTaskVisible ] = useState(false);
     const [ alltaskvisible , setAllTaskVisible ] = useState(false);
