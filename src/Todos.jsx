@@ -17,7 +17,7 @@ function Todos({ alltaskvisible }) {
             <li key={todo.id} className='flex items-center justify-between w-full border-4 bg-zinc-900 mt-[4vw] p-[4vw] lg:p-[1vw] lg:mt-[1vw]'>
                 <div className="w-[30vw] text-center flex gap-4">
                   <input type="checkbox" className="h-[4vh] w-[4vh]" onChange={() => dispatch(moveToFirst(todo.id))}/>
-                  <p className='text-white text-start text-2xl w-[60vw] h-[7vh] lg:text-[1.5vw]'>{todo.text}</p>
+                  <p className='text-white text-start text-xl w-[60vw] h-[7vh] lg:text-[1.5vw]'>{todo.text}</p>
                 </div>
                 <div className="h-[5vh] w-[10vw] bg-red-600 rounded-xl lg:h-[4vh] lg:w-[5vw]">
                     <button onClick={() => dispatch(removeToDo(todo.id))} className='w-full h-full font-bold text-[3vw] lg:text-[1vw]'>X</button>
