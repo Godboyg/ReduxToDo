@@ -83,7 +83,7 @@ const Auth = () => {
               <button className="h-full w-full text-xl text-green-700 font-bold z-50" onClick={e => setTaskVisible(true)}>ADD TASK</button>
             </div>
           </div>
-          <div className={`flex items-center justify-center absolute top-55 shadow-lg left-10 transition-all duration-300 ease-in-out transform ${taskvisible ? "opacity-100 scale-100 z-50" : "opacity-0 z-20 scale-90"}`}>
+          <div className={`flex items-center justify-center absolute top-55 shadow-lg left-3 transition-all duration-300 ease-in-out transform ${taskvisible ? "opacity-100 scale-100 z-50" : "opacity-0 z-20 scale-90"}`}>
             <div className="h-[80vh] w-[90vw] p-[5vw] bg-black text-white">
               <div className="flex items-center justify-between">
                 <p className="text-2xl font-bold">ADD TASK</p>
